@@ -4,7 +4,7 @@
 
 - [EOS Radio](https://eosradio.de)
 - [EOS Radio Generator](https://eosradio.de/generator)
-- [index.html](index.html)
+- [index.html](index.html) or live on [https://moritzebeling.github.io/lava](https://moritzebeling.github.io/lava/)
 
 ## Installation
 
