@@ -1,5 +1,11 @@
 # Lava animation
 
+## Example
+
+- [EOS Radio](https://eosradio.de)
+- [EOS Radio Generator](https://eosradio.de/generator)
+- [dist/index.html](dist/index.html)
+
 ## Installation
 
 1. Install `simplex-noise` dependency
@@ -62,3 +68,5 @@ npm run build
 
 © 2021 by [Moritz Ebeling](https://moritzebeling.com).
 Originally made for [EOS Radio](https://eosradio.de).
+
+There is no garantee or customer service provided for this code. Use it as is on your own risk and enjoyment. This is no freeware, if you want to use it for your project, contact the creator.
