@@ -4,7 +4,7 @@
 
 - [EOS Radio](https://eosradio.de)
 - [EOS Radio Generator](https://eosradio.de/generator)
-- [dist/index.html](dist/index.html)
+- [index.html](index.html)
 
 ## Installation
 
