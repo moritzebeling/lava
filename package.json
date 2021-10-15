@@ -1,0 +1,18 @@
+{
+  "name": "lava",
+  "version": "1.0.0",
+  "description": "Lava lamp animation using simplex noise",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Moritz Ebeling",
+  "license": "ISC",
+  "devDependencies": {
+    "simplex-noise": "^3.0.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  },
+  "type": "module"
+}
