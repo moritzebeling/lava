@@ -21,6 +21,10 @@ npm i simplex-noise -D
 
 ## Usage
 
+```html
+<canvas id="canvas"></canvas>
+```
+
 ```js
 import { Lava } from './animation.js';
 
@@ -53,10 +57,11 @@ let animation = new Lava( element, options );
 ### Experimental options
 
 - `width` and `height` is not the size in which the canvas will be displayed (you would do that via CSS), but it is the size of pixels that are calculated within the canvas. Don’t make it too high, `128` feels about right.
-- `factor` is a value that the result of the noise get multiplied with. No idea what it does, but feel free to play with it.
-- `shift` is a value that gets added to the result of the noise. Same as above, no clue what it does.
+- `factor` is a value that the result of the noise get multiplied with. No idea what it does, but feel free to play with it. `shift` is a value that gets added to the result of the noise. Same as above, no clue what it does.
 
 ## Development
+
+You can start a webpack to bundle or work on the code.
 
 ```
 npm install
