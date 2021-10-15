@@ -22,7 +22,7 @@ npm i simplex-noise -D
 ## Usage
 
 ```html
-<canvas id="canvas"></canvas>
+<canvas id="lava"></canvas>
 ```
 
 ```js
