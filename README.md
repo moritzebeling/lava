@@ -16,7 +16,7 @@
 ## Dependencies
 
 ```
-npm i simplex-noise -D
+npm i simplex-noise@4.0.1
 ```
 
 ## Usage

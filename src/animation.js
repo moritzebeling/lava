@@ -1,4 +1,4 @@
-import { SimplexNoise } from 'simplex-noise';
+import { createNoise3D } from 'simplex-noise';
 
 export class Lava {
 
@@ -32,7 +32,7 @@ export class Lava {
         this._speed = this._options.speed / 1000;
 
         /* setup simplex noise */
-        this._simplex = new SimplexNoise();
+        this._simplex = new createNoise3D();
         
         /* setup canvas */
         this._canvas = canvas;
@@ -79,7 +79,7 @@ export class Lava {
 
                 /* create density value based on x,y,time */
                 /* * factor, + shift */
-                let r = context._simplex.noise3D(
+                let r = context._simplex(
                         x / context._options.width,
                         y / context._options.height,
                         context._time
